@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StudentGrades/1.0.0": {
+        "dependencies": {
+          "NUnit": "4.2.2",
+          "NUnit.Analyzers": "4.3.0",
+          "NUnit3TestAdapter": "4.6.0"
+        },
+        "runtime": {
+          "StudentGrades.dll": {}
+        }
+      },
+      "NUnit/4.2.2": {
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.2.2.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.2.2.0",
+            "fileVersion": "4.2.2.0"
+          }
+        }
+      },
+      "NUnit.Analyzers/4.3.0": {},
+      "NUnit3TestAdapter/4.6.0": {}
+    }
+  },
+  "libraries": {
+    "StudentGrades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUnit/4.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mon0OPko28yZ/foVXrhiUvq1LReaGsBdziumyyYGxV/pOE4q92fuYeN+AF+gEU5pCjzykcdBt5l7xobTaiBjsg==",
+      "path": "nunit/4.2.2",
+      "hashPath": "nunit.4.2.2.nupkg.sha512"
+    },
+    "NUnit.Analyzers/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ki4p1XrmnYil64HE9VkJSuo6KBr8vg7Mut43atYvItDp3HwIcRY5hi+n5o8GaX1IBCwYLaJgW5ZfZuBVPYXEkg==",
+      "path": "nunit.analyzers/4.3.0",
+      "hashPath": "nunit.analyzers.4.3.0.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R7e1+a4vuV/YS+ItfL7f//rG+JBvVeVLX4mHzFEZo4W1qEKl8Zz27AqvQSAqo+BtIzUCo4aAJMYa56VXS4hudw==",
+      "path": "nunit3testadapter/4.6.0",
+      "hashPath": "nunit3testadapter.4.6.0.nupkg.sha512"
+    }
+  }
+}
